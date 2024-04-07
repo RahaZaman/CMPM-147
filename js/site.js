@@ -1,5 +1,5 @@
 // index.js - purpose and description here
-// Author: Your Name
+// Author: Rahamat Zaman
 // Date:
 
 // make sure document is ready
