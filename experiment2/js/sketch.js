@@ -137,8 +137,10 @@ function draw() {
     let y = height / 2 + height / 20 / z;
     triangle(x, y - s, x - s / 4, y, x + s / 4, y);
   }
-
 }
+
+// code for mountains and trees are from the example remix project
+// https://glitch.com/~living-impression-example
 
 // mousePressed() function is called once after every time a mouse button is pressed
 function mousePressed() {
