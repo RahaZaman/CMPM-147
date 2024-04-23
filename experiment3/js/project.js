@@ -1,5 +1,5 @@
 // project.js - purpose and description here
-// Author: Your Name
+// Author: Rahamat Zaman
 // Date:
 
 // NOTE: This is how we might start a basic JavaaScript OOP project
@@ -31,4 +31,4 @@ function main() {
 }
 
 // let's get this party started - uncomment me
-//main();
+main();
