@@ -1,7 +1,7 @@
 // sketch.js - creates three interactive infinite worlds where users can dynamically interact with grass, 
 // ocean life, and desert elements, each customizable using a world key.
 // Author: Rahamat Zaman
-// Date: April 30 2024
+// Date: May 1st 2024
 
 function resizeScreen() {
   centerHorz = canvasContainer.width() / 2; // Adjusted for drawing logic
