@@ -43,34 +43,73 @@
 
 			<h1>Experiment 5 - Evolutionary Impressions</h1>
 
-			<div class="minor-section">
-				<div id="canvas-container">
-					<!-- canvas will be added here -->
-				</div>
-
-				<!-- <div id="canvas-container1" class="p5Canvas"> -->
-					<!-- canvas will be added here -->
-				<!-- </div> -->
-				<!-- <div id="canvas-container2" class="p5Canvas"> -->
-					<!-- canvas will be added here -->
-				<!-- </div> -->
-				<!-- <div id="canvas-container3" class="p5Canvas"> -->
+			<!-- <div class="minor-section"> -->
+				<!-- <div id="canvas-container"> -->
 					<!-- canvas will be added here -->
 				<!-- </div> -->
 
-                <div class="fullscreen-box">
+                <!-- <div class="fullscreen-box">
                     <button id="fullscreen">Fullscreen</button>
+                </div>
+			</div> -->
+
+			<div class="minor-section results">
+                <div class="results-top">
+                    <div class="image-container">
+                        <p id="original"></p>
+                        <p class="caption"></p>
+                    </div>
+                    <div class="image-container">
+                        <p id="active"></p>
+                        <p>Active Image</p>
+                    </div>
+                    <div class="image-container">
+                        <p id="best"></p>
+                        <p>Best Image</p>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="controls-col1">
+                        <select id="dropper"></select>
+                        <button id="restart">
+                        restart
+                        </button>
+                        <p>
+                        Mutation rate (<span id="rate"></span>%):<br /><input
+                            id="slider"
+                            type="range"
+                            min="1"
+                            max="100"
+                            value="100"
+                        />
+                        </p>
+                    </div>
+                    <div class="controls-col2">
+                        <p>Active score: <span id="activeScore"></span></p>
+                        <p>Exploration rate: <span id="fpsCounter"></span> fps</p>
+                        <p>Best score: <span id="bestScore"></span></p>
+                    </div>
+                </div>
+
+                <div class="results-bottom">
+                    <p id="memory" data-max-items="28"></p>
                 </div>
 			</div>
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p></p>
+				<p>Parameterized image generator that adapts its designs based on three selectable inspiring images, allowing users to fine-tune exploration with a mutation rate slider. Select from three captivating images, whether it's the rustic charm of a Bangladeshi village road, the fiery hues of a breathtaking sunset, or the iconic skyline of London. Witness your designs transform and adapt in real-time, unveiling unique and mesmerizing artworks with each iteration.</p>
 			</div>		  
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p></p>
+				<p>This project harnesses the power of p5.js for dynamic canvas rendering and image manipulation, offering a seamless creative experience. Leveraging JavaScript, user-selected images seamlessly integrate into the generator, while a sophisticated random mutation algorithm fine-tunes design exploration.</p>
+			</div>
+
+			<div class="minor-section">
+				<h2>Annealing</h2>
+                <p>For best results, adjust the mutation rate gradually from 100% to 1% over about 30 seconds. This allows the generator to make significant changes initially and focus on finer details later. Monitor the outputs and use your judgment to determine when to make bigger or smaller changes manually. Finally, right-click on the best image to save it as a PNG file for future use.</p>
 			</div>
 
 			<div class="minor-section">
