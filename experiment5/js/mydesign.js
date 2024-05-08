@@ -22,7 +22,6 @@ function getInspirations() {
   
   function initDesign(inspiration) {
     // reshapes your drawing canvas to something with the same shape as the inspiring image.
-    // resizeCanvas(inspiration.image.width / 3, inspiration.image.height / 3);
 
     // set the canvas size based on the container
     let canvasContainer = $('.image-container'); // Select the container using jQuery

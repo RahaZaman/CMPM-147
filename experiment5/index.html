@@ -22,10 +22,9 @@
 
 	<!-- Link to javascript files - DEFER waits until all elements are rendered -->
     <script type="text/javascript" src="../js/site.js" DEFER></script>
-	<!-- Use me for a JavaScript OOP Project -->
-	<script type="text/javascript" src="./js/project.js" DEFER></script>
 	<!-- Use me for a p5.js project -->
 	<script type="text/javascript" src="./js/sketch.js" DEFER></script>
+    <script type="text/javascript" src="./js/mydesign.js" DEFER></script>
 
 	<style>
         /* Add CSS styles to limit image size */
@@ -42,16 +41,6 @@
 		<section>
 
 			<h1>Experiment 5 - Evolutionary Impressions</h1>
-
-			<!-- <div class="minor-section"> -->
-				<!-- <div id="canvas-container"> -->
-					<!-- canvas will be added here -->
-				<!-- </div> -->
-
-                <!-- <div class="fullscreen-box">
-                    <button id="fullscreen">Fullscreen</button>
-                </div>
-			</div> -->
 
 			<div class="minor-section results">
                 <div class="results-top">
@@ -99,13 +88,19 @@
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p>Parameterized image generator that adapts its designs based on three selectable inspiring images, allowing users to fine-tune exploration with a mutation rate slider. Select from three captivating images, whether it's the rustic charm of a Bangladeshi village road, the fiery hues of a breathtaking sunset, or the iconic skyline of London. Witness your designs transform and adapt in real-time, unveiling unique and mesmerizing artworks with each iteration.</p>
+				<p>A parameterized image generator that adapts its designs based on three selectable inspiring images allows users to fine-tune exploration with a mutation rate slider.</p>
 			</div>		  
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>This project harnesses the power of p5.js for dynamic canvas rendering and image manipulation, offering a seamless creative experience. Leveraging JavaScript, user-selected images seamlessly integrate into the generator, while a sophisticated random mutation algorithm fine-tunes design exploration.</p>
-			</div>
+				<!-- <p>This project harnesses the power of p5.js for dynamic canvas rendering and image manipulation, offering a seamless creative experience. Leveraging JavaScript, user-selected images seamlessly integrate into the generator, while a sophisticated random mutation algorithm fine-tunes design exploration.</p> -->
+                <ol>
+                    <li>This project leverages the p5.js library to dynamically render canvas and manipulate images, ensuring a fluid creative process.</li>
+                    <li>JavaScript is employed to seamlessly integrate user-selected images, offering a diverse range of inspirations for design generation.</li>
+                    <li>An advanced random mutation algorithm is implemented to refine design exploration, enabling incremental changes and diverse outcomes.</li>
+                    <li>The design is rendered in a way that can possibly produce results that feel related to the inspiring images. (The 30-second annealing trick should produce images that resemble the inspiring image if we squint.)</li>
+                </ol>
+            </div>
 
 			<div class="minor-section">
 				<h2>Annealing</h2>
@@ -114,7 +109,7 @@
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p></p>
+				<p>Having completed the project to the best of my ability, I've gained invaluable insights into procedural generation techniques for crafting diverse visual designs. My contributions primarily focused on implementing the mutation algorithm and refining design exploration. Through the utilization of the p5.js library, coupled with procedural generation techniques like random mutation and image rendering, I've deepened my understanding of creative coding and dynamic visual generation. Despite encountering challenges along the way, such as fine-tuning the mutation rate for optimal results and ensuring seamless integration of user-selected images, my effort resulted in significant progress. </p>
 			</div>
 
 		</section>
